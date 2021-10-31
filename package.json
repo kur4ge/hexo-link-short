@@ -1,0 +1,36 @@
+{
+  "name": "@kur4ge/hexo-link-short",
+  "version": "1.0.1",
+  "description": "A hexo plugin uses yourls to make external links more concise.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kur4ge/hexo-link-short.git"
+  },
+  "keywords": [
+    "hexo",
+    "blog",
+    "asset-link",
+    "asset-path",
+    "image"
+  ],
+  "author": {
+    "name": "kur4ge",
+    "email": "kur4ge1337@gmail.com"
+  },
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/kur4ge/hexo-link-short/issues"
+  },
+  "homepage": "https://github.com/kur4ge/hexo-link-short#readme",
+  "dependencies": {
+    "axios": "^0.23.0",
+    "soup": "^0.1.5",
+    "sync-request": "^6.1.0",
+    "underscore": "^1.8.3",
+    "urlencode": "^1.1.0"
+  }
+}
